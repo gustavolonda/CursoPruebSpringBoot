@@ -1,4 +1,4 @@
-package com.dao;
+package com.example.PruebaSpringBoot.dao;
 
 import java.util.Optional;
 
