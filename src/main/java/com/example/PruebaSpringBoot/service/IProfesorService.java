@@ -15,4 +15,5 @@ public interface IProfesorService {
     public void deleteProfesor(Long id);
     public Profesor findById(Long id);
     public Profesor findByIdSQL(Long id);
+    public Profesor save(Profesor profesor);
 }

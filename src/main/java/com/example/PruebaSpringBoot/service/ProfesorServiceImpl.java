@@ -80,5 +80,12 @@ public class ProfesorServiceImpl implements IProfesorService{
         return (Profesor )profesorDao.findByIdSQL(id);
     }
 
+    @Override
+    @Transactional
+    public Profesor save(Profesor profesor) {
+        // TODO Auto-generated method stub
+        return profesorDao.save(profesor);
+    }
+
     
 }
